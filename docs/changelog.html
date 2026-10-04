@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What's new in VETRA</title>
+<meta name="description" content="Release notes for VETRA, from the first presets in 6.6 to the 7.0 test version.">
+<link rel="canonical" href="https://lucasbergstrom-prog.github.io/vetra/changelog.html">
+<meta name="theme-color" content="#0b0b0a">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VETRA">
+<meta property="og:title" content="What's new in VETRA">
+<meta property="og:description" content="Release notes for VETRA, from the first presets in 6.6 to the 7.0 test version.">
+<meta property="og:url" content="https://lucasbergstrom-prog.github.io/vetra/changelog.html">
+<meta property="og:image" content="https://lucasbergstrom-prog.github.io/vetra/assets/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="alternate" type="application/atom+xml" title="VETRA releases" href="https://github.com/lucasbergstrom-prog/vetra/releases.atom">
+<link rel="stylesheet" href="assets/css/site.css?v=8b00ac81">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap site-header__row">
+    <a class="brand" href="./" aria-label="VETRA home">
+      <img src="assets/img/brand/vetra-mark.svg" width="26" height="24" alt="">
+      <span>VETRA</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><span class="visually-hidden">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="features.html">Features</a>
+      <a href="guide.html">Guide</a>
+      <a href="changelog.html" aria-current="page">What's new</a>
+      <a href="support.html">Support</a>
+      <a href="about.html">About</a>
+      <a class="button button--primary button--small" href="download.html"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7.5 10.5 4.5 4.5 4.5-4.5"/><path d="M5 19h14"/></svg>Download</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Release notes</p>
+    <h1>What's new.</h1>
+    <p class="lead">Each release, newest first. To hear about the next one, follow the <a href="https://github.com/lucasbergstrom-prog/vetra/releases" rel="noopener">release feed</a>.</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+
+    <article class="release" id="v7-0-test">
+      <div class="release__tag"><b>7.0-test</b><span>27 September 2026</span><br><span class="pill">Current</span></div>
+      <div class="prose">
+        <h2>The first test version</h2>
+        <p>Everything from 6.9, packaged for people outside the workshop to try.</p>
+        <ul>
+          <li><strong>The phone link is held back</strong> for this version. There is no phone button and it never starts, even for someone who had it switched on before. Their choice is remembered for when it returns.</li>
+          <li><strong>Fixed:</strong> a new export folder that had not been used yet, such as <code>Pictures\VETRA Exports</code> the first time, was listed as "(not connected)" in Settings and in the Export window. It now says that only when the drive itself is missing.</li>
+        </ul>
+        <p><a class="link-arrow" href="download.html">Download 7.0-test <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></p>
+      </div>
+    </article>
+
+    <article class="release" id="v6-9">
+      <div class="release__tag"><b>6.9</b><span>September 2026</span></div>
+      <div class="prose">
+        <h2>History gets its own column</h2>
+        <ul>
+          <li><strong>History is always open</strong>, in a column beside the photo and the full height of the window. Click a step to go back to it, select several with Ctrl or Shift and delete them, right-click for more, double-click to rename.</li>
+          <li><strong>New in History:</strong> the step under the pointer lights up, long names show in full on hover, the header counts the steps, and the list no longer jumps back to the current step while you are selecting older ones. Tab hides it along with the side panels.</li>
+          <li><strong>The tools moved</strong> to a row under the histogram: Crop, Spot removal and the masks. They work exactly as before.</li>
+          <li><strong>Fixed:</strong> Ctrl+click zoomed the photo to 100%, and Ctrl+1 gave the photo one star instead of zooming. Ctrl+1 and Ctrl+0 now zoom as they say, and Ctrl+click only selects.</li>
+          <li><strong>Fixed:</strong> on small laptop screens the zoom buttons slid under the star rating. The bar now makes room.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="release" id="v6-8">
+      <div class="release__tag"><b>6.8</b><span>September 2026</span></div>
+      <div class="prose">
+        <h2>A closer Copy a look, backups, and several export places</h2>
+        <ul>
+          <li><strong>Copy a look matches far more closely.</strong> As well as overall tint, contrast and saturation it now matches the picture's individual colours, its skies, greens and oranges, while keeping skin tones natural. It checks its own result against the picture and keeps adjusting until it is as close as the sliders can get.</li>
+          <li><strong>Save to several places at once.</strong> The Export window has a "Save to" list: any number of folders, plus "Next to the original photo". One export writes to all of them; a folder that is not connected is skipped with a message.</li>
+          <li><strong>Backups of your edits.</strong> Choose one or more folders in Settings and VETRA keeps a copy of every edit, the catalog and your presets there. "Restore edits" brings them back, and Undo can take a restore back.</li>
+          <li><strong>Laptops:</strong> VETRA opens to fit the screen and remembers its size and place. The tool buttons and top bar shrink to fit, checked from 1280 × 800 at 100% scaling up to 4K at 250%.</li>
+          <li><strong>Every window</strong> now opens centred on VETRA.</li>
+          <li><strong>Phone link,</strong> first version: browse and edit your library from a phone on the same Wi-Fi. Held back in 7.0-test; see the <a href="about.html#roadmap">roadmap</a>.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="release" id="v6-7">
+      <div class="release__tag"><b>6.7</b><span>September 2026</span></div>
+      <div class="prose">
+        <h2>Copy a look</h2>
+        <ul>
+          <li><strong>A box under the presets</strong> you can drop any picture into: a favourite photo, a still from a film, a screenshot. Copy one and press Ctrl+V, or click to choose a file.</li>
+          <li><strong>VETRA reads the picture's colour and mood</strong> and sets its own sliders so your photo takes them on: the tint of the shadows, midtones and highlights, the palette, the saturation, how deep the blacks go and how the highlights roll off.</li>
+          <li><strong>It behaves like a preset.</strong> Amount turns it up or down, every slider it set can be changed afterwards, and undo takes it off. Black bars around a film still are ignored; a black-and-white picture gives a black-and-white photo.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="release" id="v6-6">
+      <div class="release__tag"><b>6.6</b><span>September 2026</span></div>
+      <div class="prose">
+        <h2>116 presets and the guided tour</h2>
+        <ul>
+          <li><strong>116 presets in 12 categories.</strong> Hover one to preview it on the photo, click to apply. Every row shows the photo itself with that preset. Search, favourites, and your own presets at the top.</li>
+          <li><strong>An Amount slider</strong> for the applied preset, from 0% through 100% to 200%. Anything changed by hand afterwards is kept when Amount moves.</li>
+          <li><strong>A guided tour for complete beginners,</strong> offered the first time VETRA opens: hands-on steps across the whole app on practice photos, which are removed when the tour ends.</li>
+          <li><strong>Menus</strong> close when you click anywhere else, and only one is open at a time.</li>
+        </ul>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div class="site-footer__brand">
+      <a class="brand" href="./" aria-label="VETRA home">
+        <img src="assets/img/brand/vetra-mark.svg" width="26" height="24" alt="">
+        <span>VETRA</span>
+      </a>
+      <p>A non-destructive photo editor for Windows. Your photos and your edits stay on your computer.</p>
+      <p class="site-footer__version">Version 7.0-test &middot; 27 September 2026</p>
+    </div>
+    <nav aria-label="Product">
+      <h2>Product</h2>
+      <a href="features.html">Features</a>
+      <a href="download.html">Download</a>
+      <a href="changelog.html">What's new</a>
+      <a href="about.html#roadmap">Roadmap</a>
+    </nav>
+    <nav aria-label="Learn">
+      <h2>Learn</h2>
+      <a href="guide.html">Getting started</a>
+      <a href="guide.html#shortcuts">Keyboard shortcuts</a>
+      <a href="support.html">Support</a>
+      <a href="support.html#faq">Questions</a>
+    </nav>
+    <nav aria-label="VETRA">
+      <h2>VETRA</h2>
+      <a href="about.html">About</a>
+      <a href="about.html#press">Press kit</a>
+      <a href="https://github.com/lucasbergstrom-prog/vetra/releases" rel="noopener">Release feed</a>
+      <a href="https://github.com/lucasbergstrom-prog/vetra/issues/new" rel="noopener">Contact</a>
+    </nav>
+    <nav aria-label="Legal">
+      <h2>Legal</h2>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="licenses.html">Open-source licences</a>
+    </nav>
+  </div>
+  <div class="wrap site-footer__base">
+    <p>&copy; 2026 VETRA. Windows is a trademark of the Microsoft group of companies.</p>
+    <p>No cookies. No trackers. <a href="privacy.html">How this site treats you</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/site.js?v=8b00ac81" defer></script>
+</body>
+</html>

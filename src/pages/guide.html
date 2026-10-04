@@ -1,0 +1,140 @@
+title: Getting started with VETRA
+description: A short guide to VETRA: install it, take the tour, import photos, cull, develop and export. Includes every keyboard shortcut.
+priority: 0.7
+---
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Guide</p>
+    <h1>From install to first export.</h1>
+    <p class="lead">Ten minutes of reading. The guided tour inside VETRA covers the same ground hands-on.</p>
+    <ul class="toc" style="margin-top: 28px;">
+      <li><a href="#install">Install</a></li>
+      <li><a href="#import">Bring photos in</a></li>
+      <li><a href="#choose">Choose the keepers</a></li>
+      <li><a href="#edit">Edit</a></li>
+      <li><a href="#export">Export</a></li>
+      <li><a href="#files">Where things are kept</a></li>
+      <li><a href="#shortcuts">Keyboard shortcuts</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="narrow prose">
+    <h2 id="install">1. Install</h2>
+    <p>Download the installer from the <a href="download.html">download page</a> and run it. It installs for your user only, so it does not ask for admin rights. If Windows shows "Windows protected your PC", click <strong>More info</strong> and then <strong>Run anyway</strong>; the test version is not code-signed yet.</p>
+    <p>The first time VETRA opens it offers a guided tour. It is worth taking: it walks through the whole app on practice photos, lights up the part of the window each step is about, and waits for you to do it. "Show me" does any step for you. When the tour ends, the practice photos and everything done to them are removed. You can take it again from the <strong>?</strong> menu at the top right.</p>
+
+    <h2 id="import">2. Bring photos in</h2>
+    <p>Use <strong>Import</strong> at the top left.</p>
+    <ul>
+      <li><strong>Import a folder</strong> (<kbd>Ctrl</kbd> <kbd>O</kbd>) adds every photo in a folder and, if you like, its subfolders, and can make an album named after it.</li>
+      <li><strong>Add photos</strong> lets you hand-pick files from anywhere. They join the library, and the album that is open if there is one.</li>
+      <li><strong>Open a single photo</strong> takes one photo straight into Develop.</li>
+    </ul>
+    <p>You can also right-click a photo in Windows and choose <strong>Open with &rsaquo; VETRA</strong>. In every case the photos stay where they are.</p>
+
+    <h2 id="choose">3. Choose the keepers</h2>
+    <p>Press <kbd>C</kbd> for Cull. One photo fills the window. Press <kbd>P</kbd> to pick it, <kbd>X</kbd> to reject it, or <kbd>1</kbd> to <kbd>5</kbd> to rate it, and VETRA moves to the next. <kbd>Ctrl</kbd> <kbd>Z</kbd> takes back the last judgement. When you are done, <strong>Add picks to album</strong> gathers the keepers.</p>
+
+    <h2 id="edit">4. Edit</h2>
+    <p>Press <kbd>D</kbd> for Develop, or <kbd>Enter</kbd> on a selected photo.</p>
+    <ul>
+      <li><strong>Try a preset first.</strong> Open a category on the left, hover a preset to preview it and click to apply. Drag <strong>Amount</strong> to make it weaker or stronger.</li>
+      <li><strong>Then adjust.</strong> The Basic section on the right has white balance, exposure and the other tone sliders. Double-click a slider to reset it.</li>
+      <li><strong>Crop</strong> with <kbd>R</kbd>. Drag the handles, press <kbd>Enter</kbd> to apply or <kbd>Esc</kbd> to cancel.</li>
+      <li><strong>Fix one area</strong> with a mask from the row under the histogram: Subject, Sky, Brush and the rest.</li>
+      <li><strong>Check your work.</strong> Hold <kbd>\</kbd> to see the original. Press <kbd>J</kbd> to see clipping.</li>
+    </ul>
+    <p>There is no Save button. Every change is saved as you make it, and History, the column beside the photo, lists them all. Click any step to go back.</p>
+
+    <h2 id="export">5. Export</h2>
+    <p>Press <kbd>Ctrl</kbd> <kbd>E</kbd>, or use the Export button at the top right. It exports the selected photos, or the whole album when nothing is selected. Choose JPEG, PNG or TIFF, a size, and one or more places to save to. The first time, exports go to <code>Pictures\VETRA Exports</code>. The export runs in the background; click the green pill when it finishes to open the folder.</p>
+
+    <h2 id="files">Where things are kept</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>What</th><th>Where</th></tr></thead>
+        <tbody>
+          <tr><th>Your photos</th><td>Wherever they already were. VETRA never moves or changes them.</td></tr>
+          <tr><th>Edits</th><td>A <code>.vetra.json</code> file beside each edited photo. Keep it with the photo and the edit travels too.</td></tr>
+          <tr><th>Library and settings</th><td><code>%USERPROFILE%\.vetra</code>: albums, stars and picks, your presets and preferences.</td></tr>
+          <tr><th>Exports</th><td><code>Pictures\VETRA Exports</code> until you choose other places.</td></tr>
+          <tr><th>Logs</th><td><code>%USERPROFILE%\.vetra\logs</code>, opened from the <strong>?</strong> menu.</td></tr>
+          <tr><th>Backups</th><td>Any folders you add under Settings, the sliders button at the top right.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight section--alt" id="shortcuts">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Keyboard shortcuts</p>
+      <h2>Every shortcut on one page.</h2>
+      <p>The same list is inside VETRA: <strong>?</strong> menu &rsaquo; Keyboard shortcuts.</p>
+    </div>
+    <div class="keys-grid">
+      <div>
+        <h3>Views</h3>
+        <div class="table-wrap"><table><tbody>
+          <tr><th><kbd>G</kbd> <kbd>C</kbd> <kbd>D</kbd></th><td>Library, Cull, Develop</td></tr>
+          <tr><th><kbd>Tab</kbd></th><td>Hide or show the side panels and History</td></tr>
+          <tr><th><kbd>\</kbd></th><td>Hold to peek at the original</td></tr>
+          <tr><th><kbd>J</kbd></th><td>Show clipping</td></tr>
+          <tr><th><kbd>O</kbd></th><td>Show or hide the mask overlay</td></tr>
+          <tr><th><kbd>Ctrl</kbd> <kbd>0</kbd>, <kbd>Ctrl</kbd> <kbd>1</kbd></th><td>Fit, 100% zoom</td></tr>
+          <tr><th>Wheel, <kbd>+</kbd> <kbd>−</kbd></th><td>Zoom toward the pointer</td></tr>
+        </tbody></table></div>
+      </div>
+      <div>
+        <h3>Photos</h3>
+        <div class="table-wrap"><table><tbody>
+          <tr><th><kbd>←</kbd> <kbd>→</kbd></th><td>Previous, next photo</td></tr>
+          <tr><th><kbd>1</kbd>–<kbd>5</kbd>, <kbd>0</kbd></th><td>Star rating, clear</td></tr>
+          <tr><th><kbd>P</kbd> <kbd>X</kbd> <kbd>U</kbd></th><td>Pick, reject, unflag</td></tr>
+          <tr><th><kbd>Enter</kbd></th><td>Open the selected photo</td></tr>
+          <tr><th><kbd>Ctrl</kbd> <kbd>A</kbd></th><td>Select all</td></tr>
+          <tr><th><kbd>Delete</kbd></th><td>Remove from album (Library)</td></tr>
+        </tbody></table></div>
+      </div>
+      <div>
+        <h3>Culling</h3>
+        <div class="table-wrap"><table><tbody>
+          <tr><th><kbd>P</kbd> <kbd>X</kbd> <kbd>U</kbd></th><td>Pick, reject, clear, then move on</td></tr>
+          <tr><th><kbd>1</kbd>–<kbd>5</kbd></th><td>Rate, then move on</td></tr>
+          <tr><th><kbd>Space</kbd> <kbd>→</kbd></th><td>Next photo</td></tr>
+          <tr><th><kbd>←</kbd></th><td>Previous photo</td></tr>
+          <tr><th><kbd>Ctrl</kbd> <kbd>Z</kbd></th><td>Undo the last judgement</td></tr>
+          <tr><th><kbd>Enter</kbd></th><td>Edit this photo</td></tr>
+        </tbody></table></div>
+      </div>
+      <div>
+        <h3>Tools</h3>
+        <div class="table-wrap"><table><tbody>
+          <tr><th><kbd>R</kbd></th><td>Crop</td></tr>
+          <tr><th><kbd>Q</kbd></th><td>Spot removal</td></tr>
+          <tr><th><kbd>W</kbd></th><td>White balance eyedropper</td></tr>
+          <tr><th><kbd>Esc</kbd></th><td>Leave the current tool, put the mask away</td></tr>
+          <tr><th><kbd>Delete</kbd></th><td>Delete the selected mask or spot</td></tr>
+          <tr><th>Wheel</th><td>Resize the spot or brush while a tool is active</td></tr>
+          <tr><th>Drag, middle-drag</th><td>Pan when zoomed in</td></tr>
+        </tbody></table></div>
+      </div>
+      <div style="grid-column: 1 / -1;">
+        <h3>Editing</h3>
+        <div class="table-wrap"><table><tbody>
+          <tr><th><kbd>Ctrl</kbd> <kbd>Z</kbd>, <kbd>Ctrl</kbd> <kbd>Y</kbd></th><td>Undo, redo</td></tr>
+          <tr><th><kbd>Ctrl</kbd> <kbd>C</kbd>, <kbd>Ctrl</kbd> <kbd>V</kbd></th><td>Copy, paste a look</td></tr>
+          <tr><th><kbd>Ctrl</kbd> <kbd>V</kbd> with a copied picture</th><td>Copy that picture's look</td></tr>
+          <tr><th><kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd></th><td>Copy specific settings</td></tr>
+          <tr><th><kbd>Ctrl</kbd> <kbd>E</kbd></th><td>Export</td></tr>
+          <tr><th>Double-click a slider</th><td>Reset it</td></tr>
+          <tr><th>Click a number</th><td>Type a value</td></tr>
+          <tr><th>Hover, then <kbd>←</kbd> <kbd>→</kbd></th><td>Nudge a slider. <kbd>Shift</kbd> moves ten times as far</td></tr>
+        </tbody></table></div>
+      </div>
+    </div>
+  </div>
+</section>

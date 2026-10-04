@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="150 180 724 676" role="img" aria-label="VETRA">
+  <defs>
+    <linearGradient id="vl" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1024" y2="1024"><stop offset="0" stop-color="#e3c992"/><stop offset="1" stop-color="#b8955e"/></linearGradient>
+    <linearGradient id="vr" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1024" y2="1024"><stop offset="0" stop-color="#b7955c"/><stop offset="1" stop-color="#8a6937"/></linearGradient>
+  </defs>
+  <polygon points="176,204 366,204 512,598 512,832" fill="url(#vl)"/>
+  <polygon points="658,204 848,204 512,832 512,598" fill="url(#vr)"/>
+</svg>

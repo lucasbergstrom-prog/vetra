@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — VETRA</title>
+<meta name="description" content="Help with VETRA: how to report a problem so it can be fixed, where the log is, and answers to common questions.">
+<link rel="canonical" href="https://lucasbergstrom-prog.github.io/vetra/support.html">
+<meta name="theme-color" content="#0b0b0a">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VETRA">
+<meta property="og:title" content="Support — VETRA">
+<meta property="og:description" content="Help with VETRA: how to report a problem so it can be fixed, where the log is, and answers to common questions.">
+<meta property="og:url" content="https://lucasbergstrom-prog.github.io/vetra/support.html">
+<meta property="og:image" content="https://lucasbergstrom-prog.github.io/vetra/assets/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="alternate" type="application/atom+xml" title="VETRA releases" href="https://github.com/lucasbergstrom-prog/vetra/releases.atom">
+<link rel="stylesheet" href="assets/css/site.css?v=8b00ac81">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap site-header__row">
+    <a class="brand" href="./" aria-label="VETRA home">
+      <img src="assets/img/brand/vetra-mark.svg" width="26" height="24" alt="">
+      <span>VETRA</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><span class="visually-hidden">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="features.html">Features</a>
+      <a href="guide.html">Guide</a>
+      <a href="changelog.html">What's new</a>
+      <a href="support.html" aria-current="page">Support</a>
+      <a href="about.html">About</a>
+      <a class="button button--primary button--small" href="download.html"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7.5 10.5 4.5 4.5 4.5-4.5"/><path d="M5 19h14"/></svg>Download</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Support</p>
+    <h1>Something not right? Say so.</h1>
+    <p class="lead">This is a test version, and reports are how it gets better. A good report takes two minutes and usually leads straight to a fix.</p>
+    <div class="button-row" style="margin-top: 28px;">
+      <a class="button button--primary" href="https://github.com/lucasbergstrom-prog/vetra/issues/new" rel="noopener">Report a problem <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 5h5v5"/><path d="m19 5-8 8"/><path d="M18 14v4a1.5 1.5 0 0 1-1.5 1.5h-10A1.5 1.5 0 0 1 5 18V7.5A1.5 1.5 0 0 1 6.5 6H10"/></svg></a>
+      <a class="button button--ghost" href="https://github.com/lucasbergstrom-prog/vetra/issues" rel="noopener">See known issues</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Reporting</p>
+      <h2>What makes a report useful.</h2>
+    </div>
+    <ol class="steps">
+      <li><h3>Say what happened</h3><p>What you did, what you expected, and what happened instead. One sentence each is enough.</p></li>
+      <li><h3>Copy the details</h3><p>If VETRA showed an error message, click <strong>Copy details</strong> on it and paste that into your report. It includes the version and your Windows build.</p></li>
+      <li><h3>Attach the log</h3><p>In VETRA open the <strong>?</strong> menu at the top right and choose <strong>Open log folder</strong>. Send <code>vetra.log</code>, and <code>crash.log</code> if it is not empty.</p></li>
+    </ol>
+    <div class="note" style="max-width: 760px;">
+      <p><strong>Before you attach a log, glance through it.</strong> It contains the folder paths and file names of photos VETRA tried to open, because that is what helps find a fault. It never contains the photos themselves. Reports on the issue tracker are public, so remove anything you would rather not share.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight section--alt" id="faq">
+  <div class="narrow">
+    <div class="section__head">
+      <p class="eyebrow">Questions</p>
+      <h2>Common questions.</h2>
+    </div>
+
+    <h3 class="eyebrow" style="margin-top: 0;">Installing</h3>
+    <div class="faq">
+      <details>
+        <summary>Windows says "Windows protected your PC".</summary>
+        <div><p>The test version is not code-signed yet, so Windows SmartScreen does not recognise the installer. Click <strong>More info</strong>, then <strong>Run anyway</strong>. To be sure the file is genuine, compare its SHA-256 checksum with the one on the <a href="download.html#verify">download page</a>.</p></div>
+      </details>
+      <details>
+        <summary>Do I need admin rights?</summary>
+        <div><p>No. VETRA installs for the current user only.</p></div>
+      </details>
+      <details>
+        <summary>How do I upgrade from an older version?</summary>
+        <div><p>Run the new installer over the old one. Your library, settings and edits are kept.</p></div>
+      </details>
+      <details>
+        <summary>VETRA said it didn't close properly last time.</summary>
+        <div><p>That appears when the previous session ended without a normal exit: a crash, a forced close or the PC shutting down. Your edits were saved as you made them. If it happens repeatedly, please send the log.</p></div>
+      </details>
+    </div>
+
+    <h3 class="eyebrow" style="margin-top: 44px;">Photos and edits</h3>
+    <div class="faq">
+      <details>
+        <summary>My photos show as "Missing".</summary>
+        <div><p>VETRA remembers where each photo is. If the drive or card they are on is not connected, they show as Missing; plug it back in and they return, with their edits.</p></div>
+      </details>
+      <details>
+        <summary>Where are my edits? How do I move them to another computer?</summary>
+        <div><p>Each edited photo has a <code>.vetra.json</code> file beside it. Copy the photo and that file together and the edit goes with it. For everything at once, add a backup folder under Settings, then use <strong>Restore edits</strong> on the new computer.</p></div>
+      </details>
+      <details>
+        <summary>Can I get my original back?</summary>
+        <div><p>It never went anywhere. The original file is not changed by editing. In VETRA, <strong>Reset all</strong> returns a photo to how it was loaded, and <kbd>Ctrl</kbd> <kbd>Z</kbd> brings the edits back if you change your mind.</p></div>
+      </details>
+      <details>
+        <summary>iPhone photos won't open.</summary>
+        <div><p>iPhones set to "High Efficiency" take HEIC photos, which VETRA cannot read yet. On the iPhone go to Settings &rsaquo; Camera &rsaquo; Formats and choose <strong>Most Compatible</strong> to take JPEGs instead.</p></div>
+      </details>
+      <details>
+        <summary>Which RAW files are supported?</summary>
+        <div><p>CR2, CR3, CRW, NEF, NRW, ARW, SRF, SR2, RAF, ORF, RW2, RWL, PEF, DNG, SRW, X3F, 3FR, FFF, IIQ, MOS, MRW, ERF, KDC, DCR, MEF and RAW. A camera released very recently may not be readable until its format is added.</p></div>
+      </details>
+    </div>
+
+    <h3 class="eyebrow" style="margin-top: 44px;">AI tools and speed</h3>
+    <div class="faq">
+      <details>
+        <summary>What are the AI models, and do I need them?</summary>
+        <div><p>They find the subject and sky for masks, and estimate depth for lens blur. They are optional, about 320 MB in all, and VETRA asks before downloading them. Everything else works without them, and once downloaded they run entirely on your computer.</p></div>
+      </details>
+      <details>
+        <summary>The status bar mentions a graphics card.</summary>
+        <div><p>VETRA runs on the processor by default and tells you so. It works without a graphics card; the AI tools simply take a few seconds longer.</p></div>
+      </details>
+      <details>
+        <summary>An export folder says "(not connected)".</summary>
+        <div><p>The drive that folder is on is not plugged in. The export skips it with a message and still writes to your other places.</p></div>
+      </details>
+    </div>
+
+    <h3 class="eyebrow" style="margin-top: 44px;">Everything else</h3>
+    <div class="faq">
+      <details>
+        <summary>How do I uninstall VETRA?</summary>
+        <div><p>Windows Settings &rsaquo; Apps &rsaquo; VETRA &rsaquo; Uninstall. It asks before deleting your library and settings. Your photos and the edit files beside them are never touched.</p></div>
+      </details>
+      <details>
+        <summary>Where is the phone app?</summary>
+        <div><p>A phone companion exists and is switched off in this test version. See the <a href="about.html#roadmap">roadmap</a>.</p></div>
+      </details>
+      <details>
+        <summary>How do I get in touch about something that is not a bug?</summary>
+        <div><p>Open an issue on the <a href="https://github.com/lucasbergstrom-prog/vetra/issues" rel="noopener">issue tracker</a> and say whether it is a question or an idea.</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div class="site-footer__brand">
+      <a class="brand" href="./" aria-label="VETRA home">
+        <img src="assets/img/brand/vetra-mark.svg" width="26" height="24" alt="">
+        <span>VETRA</span>
+      </a>
+      <p>A non-destructive photo editor for Windows. Your photos and your edits stay on your computer.</p>
+      <p class="site-footer__version">Version 7.0-test &middot; 27 September 2026</p>
+    </div>
+    <nav aria-label="Product">
+      <h2>Product</h2>
+      <a href="features.html">Features</a>
+      <a href="download.html">Download</a>
+      <a href="changelog.html">What's new</a>
+      <a href="about.html#roadmap">Roadmap</a>
+    </nav>
+    <nav aria-label="Learn">
+      <h2>Learn</h2>
+      <a href="guide.html">Getting started</a>
+      <a href="guide.html#shortcuts">Keyboard shortcuts</a>
+      <a href="support.html">Support</a>
+      <a href="support.html#faq">Questions</a>
+    </nav>
+    <nav aria-label="VETRA">
+      <h2>VETRA</h2>
+      <a href="about.html">About</a>
+      <a href="about.html#press">Press kit</a>
+      <a href="https://github.com/lucasbergstrom-prog/vetra/releases" rel="noopener">Release feed</a>
+      <a href="https://github.com/lucasbergstrom-prog/vetra/issues/new" rel="noopener">Contact</a>
+    </nav>
+    <nav aria-label="Legal">
+      <h2>Legal</h2>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="licenses.html">Open-source licences</a>
+    </nav>
+  </div>
+  <div class="wrap site-footer__base">
+    <p>&copy; 2026 VETRA. Windows is a trademark of the Microsoft group of companies.</p>
+    <p>No cookies. No trackers. <a href="privacy.html">How this site treats you</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/site.js?v=8b00ac81" defer></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+title: Privacy — VETRA
+description: VETRA keeps your photos and edits on your computer. This page sets out exactly what the app and this website do and do not collect.
+priority: 0.4
+---
+<section class="page-head">
+  <div class="narrow">
+    <p class="eyebrow">Privacy</p>
+    <h1>Privacy, in plain words.</h1>
+    <p class="lead">The short version: VETRA does not collect anything about you or your photos, and neither does this website.</p>
+    <p class="small dim">Last updated {{updated}}</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="narrow prose">
+    <h2>The VETRA app</h2>
+    <ul>
+      <li><strong>Your photos stay on your computer.</strong> VETRA opens them where they are. It does not upload them, copy them to a server or send them to anyone.</li>
+      <li><strong>Your edits stay with your photos.</strong> They are saved in a <code>.vetra.json</code> file next to each photo. The library, your settings and the logs are kept in <code>%USERPROFILE%\.vetra</code> on your computer.</li>
+      <li><strong>There is no account.</strong> VETRA does not ask for a name, an email address or a sign-in.</li>
+      <li><strong>There is no usage tracking.</strong> VETRA contains no analytics, no advertising and no crash reporting that sends anything by itself.</li>
+      <li><strong>The AI tools run locally.</strong> Subject and sky masks and lens blur are worked out on your own processor. Your photos are not sent anywhere to do it.</li>
+    </ul>
+
+    <h3>The one thing VETRA downloads</h3>
+    <p>The AI tools need model files, about 320 MB in all. VETRA asks before downloading them, the first time a tool needs one. They come from Hugging Face and PyTorch. As with any download, those services see your IP address and the request for the file; they receive nothing about you or your photos from VETRA. If you never use those tools, VETRA never connects to the internet.</p>
+
+    <h3>Logs</h3>
+    <p>VETRA writes a log to <code>%USERPROFILE%\.vetra\logs</code> to help find faults. It stays on your computer. It can include the folder paths and file names of photos, so read it through before attaching it to a public report. VETRA never sends it anywhere by itself.</p>
+
+    <h2>This website</h2>
+    <ul>
+      <li><strong>No cookies.</strong> The site sets none and stores nothing in your browser.</li>
+      <li><strong>No trackers.</strong> There are no analytics, advertising or social media scripts, and no fonts or other files loaded from third parties.</li>
+      <li><strong>No forms.</strong> The site does not ask for or collect personal information.</li>
+    </ul>
+    <h3>Hosting</h3>
+    <p>The site is hosted on GitHub Pages and the installer is served from GitHub Releases. GitHub, like any web host, receives the IP address and browser details of each request in order to answer it, and keeps logs for security. That is covered by the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">GitHub privacy statement</a>. Those logs are not available to VETRA.</p>
+    <h3>Reports you choose to send</h3>
+    <p>If you report a problem on the issue tracker, what you write and attach is public, under your GitHub account, and subject to the terms of GitHub. Share only what you are comfortable sharing.</p>
+
+    <h2>Children</h2>
+    <p>Neither the app nor this site collects personal information from anyone, including children.</p>
+
+    <h2>Changes</h2>
+    <p>If what VETRA or this site does with data ever changes, this page will be updated and the date at the top will move.</p>
+
+    <h2>Questions</h2>
+    <p>Ask on the <a href="{{issues_url}}" rel="noopener">issue tracker</a>.</p>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+{
+  "name": "VETRA",
+  "tagline": "The photo editor that stays on your computer",
+  "version": "7.0-test",
+  "release_date": "27 September 2026",
+  "release_date_iso": "2026-09-27",
+  "updated": "4 October 2026",
+  "updated_iso": "2026-10-04",
+  "site_url": "https://lucasbergstrom-prog.github.io/vetra/",
+  "repo_url": "https://github.com/lucasbergstrom-prog/vetra",
+  "download_url": "https://github.com/lucasbergstrom-prog/vetra/releases/download/v7.0-test/VETRA-7.0-test-Setup.exe",
+  "installer_file": "VETRA-7.0-test-Setup.exe",
+  "installer_size": "125 MB",
+  "installer_bytes": "130,747,642",
+  "installer_sha256": "6b86eadbacf70df2af4957f5e492cf48f10b6480be8b3b4c3442f979f9d7ca89"
+}

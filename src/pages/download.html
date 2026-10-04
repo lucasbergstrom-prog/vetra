@@ -1,0 +1,80 @@
+title: Download VETRA for Windows
+description: Download the free VETRA 7.0 test version for Windows 10 and 11. One 125 MB installer, no admin rights, no account. Checksum and install steps included.
+priority: 0.9
+---
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Download</p>
+    <h1>Get VETRA for Windows.</h1>
+    <p class="lead">One installer, no admin rights, no account. Running it over an older version upgrades it and keeps your library, settings and edits.</p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="download-card">
+      <div>
+        <span class="pill">Test version</span>
+        <h2 style="margin-top: 16px;">VETRA {{version}}</h2>
+        <p class="dim">Released {{release_date}}. Everything in it works, but you may find rough edges.</p>
+        <div class="button-row" style="margin: 1.6rem 0 1rem;">
+          <a class="button button--primary button--large" href="{{download_url}}" rel="noopener">{{icon:download}}Download for Windows</a>
+        </div>
+        <p class="hero__meta" style="margin-top: 0;"><span>{{installer_file}}</span><span>{{installer_size}}</span></p>
+        <p class="small dim" style="margin-top: 1.4rem;">By downloading you agree to the <a href="terms.html">terms of use</a>. Older and newer builds are listed on the <a href="{{releases_url}}" rel="noopener">releases page</a>.</p>
+      </div>
+      <div>
+        <dl class="spec">
+          <div><dt>System</dt><dd>Windows 10 or 11, 64-bit</dd></div>
+          <div><dt>Download</dt><dd>{{installer_size}} ({{installer_bytes}} bytes)</dd></div>
+          <div><dt>Installed</dt><dd>About 500 MB</dd></div>
+          <div><dt>Optional</dt><dd>AI models, 320 MB, fetched inside VETRA when first needed</dd></div>
+          <div><dt>Installs for</dt><dd>Your user only. No admin rights</dd></div>
+          <div><dt>Signed</dt><dd>Not yet. See <a href="#smartscreen">the Windows warning</a> below</dd></div>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Installing</p>
+      <h2>Four steps, about a minute.</h2>
+    </div>
+    <ol class="steps" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">
+      <li><h3>Run the installer</h3><p>Open <code>{{installer_file}}</code> from your Downloads folder.</p></li>
+      <li id="smartscreen"><h3>Pass the Windows warning</h3><p>Windows may say "Windows protected your PC" because this test version is not code-signed yet. Click <strong>More info</strong>, then <strong>Run anyway</strong>.</p></li>
+      <li><h3>Take the tour</h3><p>The first time VETRA opens it offers a guided tour on practice photos. You can take it again from the <strong>?</strong> menu.</p></li>
+      <li><h3>Add the AI models, if you like</h3><p>The first time you use a Subject mask or Lens blur, VETRA asks before downloading the models it needs.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section--tight" id="verify">
+  <div class="wrap split" style="align-items: start;">
+    <div>
+      <p class="eyebrow">Verify</p>
+      <h2>Check that the file is genuine.</h2>
+      <p>Because the installer is unsigned, the checksum is how you confirm that the file you have is the one published here. Run this in PowerShell from the folder you downloaded to:</p>
+      <pre><code>Get-FileHash .\{{installer_file}} -Algorithm SHA256</code></pre>
+      <p>The hash it prints should match this one exactly, ignoring upper and lower case:</p>
+      <div class="hash">
+        <code id="sha256">{{installer_sha256}}</code>
+        <button type="button" data-copy="sha256">{{icon:copy}}<span>Copy</span></button>
+      </div>
+      <p class="small dim" style="margin-top: 14px;">If it does not match, do not run the file. Delete it and download again from this page.</p>
+    </div>
+    <div class="prose">
+      <h2>Good to know</h2>
+      <ul>
+        <li><strong>Upgrading.</strong> Run the new installer over the old version. Your library, settings and edits are kept.</li>
+        <li><strong>What VETRA downloads.</strong> Only the optional AI models, from Hugging Face and PyTorch, and only after asking. Nothing else. <a href="privacy.html">Privacy details</a>.</li>
+        <li><strong>Where it keeps things.</strong> Edits sit beside each photo as <code>.vetra.json</code> files. The library, settings and logs are in <code>%USERPROFILE%\.vetra</code>.</li>
+        <li><strong>Removing it.</strong> Windows Settings &rsaquo; Apps &rsaquo; VETRA &rsaquo; Uninstall. It asks before deleting your library and settings; photos and their edit files are never touched.</li>
+        <li><strong>Something went wrong?</strong> See <a href="support.html">support</a> for how to send a useful report.</li>
+      </ul>
+    </div>
+  </div>
+</section>

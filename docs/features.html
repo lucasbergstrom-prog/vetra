@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Features — VETRA photo editor</title>
+<meta name="description" content="Everything in VETRA: library and culling, a full set of develop controls, 116 presets, Copy a look, eight kinds of mask, AI subject and depth, lens blur, export and backups.">
+<link rel="canonical" href="https://lucasbergstrom-prog.github.io/vetra/features.html">
+<meta name="theme-color" content="#0b0b0a">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="VETRA">
+<meta property="og:title" content="Features — VETRA photo editor">
+<meta property="og:description" content="Everything in VETRA: library and culling, a full set of develop controls, 116 presets, Copy a look, eight kinds of mask, AI subject and depth, lens blur, export and backups.">
+<meta property="og:url" content="https://lucasbergstrom-prog.github.io/vetra/features.html">
+<meta property="og:image" content="https://lucasbergstrom-prog.github.io/vetra/assets/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" href="assets/img/brand/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/brand/apple-touch-icon.png">
+<link rel="manifest" href="site.webmanifest">
+<link rel="alternate" type="application/atom+xml" title="VETRA releases" href="https://github.com/lucasbergstrom-prog/vetra/releases.atom">
+<link rel="stylesheet" href="assets/css/site.css?v=8b00ac81">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="wrap site-header__row">
+    <a class="brand" href="./" aria-label="VETRA home">
+      <img src="assets/img/brand/vetra-mark.svg" width="26" height="24" alt="">
+      <span>VETRA</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></svg><span class="visually-hidden">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <a href="features.html" aria-current="page">Features</a>
+      <a href="guide.html">Guide</a>
+      <a href="changelog.html">What's new</a>
+      <a href="support.html">Support</a>
+      <a href="about.html">About</a>
+      <a class="button button--primary button--small" href="download.html"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7.5 10.5 4.5 4.5 4.5-4.5"/><path d="M5 19h14"/></svg>Download</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Features</p>
+    <h1>Everything in the box.</h1>
+    <p class="lead">From the first import to the final export, in the order you would use it.</p>
+    <ul class="toc" style="margin-top: 28px;">
+      <li><a href="#library">Library</a></li>
+      <li><a href="#cull">Cull</a></li>
+      <li><a href="#develop">Develop</a></li>
+      <li><a href="#presets">Presets</a></li>
+      <li><a href="#masks">Masks</a></li>
+      <li><a href="#lens-blur">Lens blur</a></li>
+      <li><a href="#history">History</a></li>
+      <li><a href="#export">Export</a></li>
+      <li><a href="#safety">Safety</a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section section--tight" id="library">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Library</p>
+      <h2>A catalog of your photos, where they already are.</h2>
+      <p>Import a folder or hand-pick photos from anywhere. VETRA remembers them; it does not copy or move them unless you ask it to.</p>
+      <ul class="ticks">
+        <li><strong>Albums</strong> for any grouping you like. A photo can be in several, and editing it anywhere edits it everywhere</li>
+        <li><strong>Folders on disk</strong> listed as they are, including subfolders if you choose</li>
+        <li><strong>Stars and flags</strong>: rate 1 to 5, pick or reject</li>
+        <li><strong>Sort</strong> by name, date, rating, size or type, and <strong>filter</strong> to rated, flagged or edited photos</li>
+        <li><strong>Copy or move files</strong> to another folder from inside VETRA, edits included</li>
+        <li><strong>RAW support</strong> for 26 formats: CR2, CR3, NEF, ARW, RAF, ORF, RW2, DNG, PEF, SRW, X3F and more</li>
+      </ul>
+    </div>
+    <div class="shot"><img loading="lazy" src="assets/img/shots/library.webp" srcset="assets/img/shots/library.webp 1500w, assets/img/shots/library@2x.webp 3000w" sizes="(min-width: 900px) 600px, 92vw" width="1500" height="940" alt="Library view: a grid of thumbnails with star ratings and pick flags, and albums and folders in the sidebar."></div>
+  </div>
+</section>
+
+<section class="section section--tight section--alt" id="cull">
+  <div class="wrap split split--flip">
+    <div>
+      <p class="eyebrow">Cull</p>
+      <h2>Choose the keepers without touching the mouse.</h2>
+      <p>Cull shows one photo at a time, as large as the window allows, with the previous and next either side.</p>
+      <ul class="ticks">
+        <li><kbd>P</kbd> pick, <kbd>X</kbd> reject, <kbd>U</kbd> clear, <kbd>1</kbd>–<kbd>5</kbd> rate, and VETRA moves on</li>
+        <li><strong>Skip photos already judged</strong> to pick up where you stopped</li>
+        <li><strong>Undo the last judgement</strong> with <kbd>Ctrl</kbd> <kbd>Z</kbd></li>
+        <li><strong>Add picks to an album</strong> in one click, then press <kbd>Enter</kbd> to start editing</li>
+      </ul>
+    </div>
+    <div class="shot"><img loading="lazy" src="assets/img/shots/cull.webp" srcset="assets/img/shots/cull.webp 1500w, assets/img/shots/cull@2x.webp 3000w" sizes="(min-width: 900px) 600px, 92vw" width="1500" height="940" alt="Cull view with one large photo marked Picked, a running count of picks and rejects above it."></div>
+  </div>
+</section>
+
+<section class="section section--tight" id="develop">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Develop</p>
+      <h2>A full set of controls, none of them hidden.</h2>
+      <p>Every section can be reset on its own, and a small dot marks the sections you have changed.</p>
+    </div>
+    <div class="cards">
+      <div class="card card--feature"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h9"/><path d="M17 7h3"/><circle cx="15" cy="7" r="2"/><path d="M4 17h3"/><path d="M11 17h9"/><circle cx="9" cy="17" r="2"/></svg></span><h3>Basic</h3><p>White balance with an eyedropper, exposure, contrast, highlights, shadows, whites and blacks. Texture, clarity, dehaze, vibrance and saturation. Colour or black and white.</p></div>
+      <div class="card card--feature"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V4"/><path d="M4 20h16"/><path d="M4 20c6-1 8-12 16-15"/></svg></span><h3>Tone curve</h3><p>A point curve for the whole image and for red, green and blue separately. Click to add a point, right-click to remove one.</p></div>
+      <div class="card card--feature"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5a8.5 8.5 0 1 0 0 17c1.4 0 2-1 2-2 0-1.6-1-2 0-3.2 1-1.1 6.500 .7 6.500-3.800A8.500 8.500 0 0 0 12 3.500z"/><circle cx="8" cy="11" r="1"/><circle cx="11" cy="7.500" r="1"/><circle cx="15.500" cy="8.500" r="1"/></svg></span><h3>Colour mixer and grading</h3><p>Hue, saturation and luminance for eight colour bands, and colour grading for shadows, midtones and highlights with blend and balance.</p></div>
+      <div class="card card--feature"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="m14.5 3.9-4.2 7.3"/><path d="M20.4 10.5h-8.4"/><path d="m18 18-4.2-7.3"/><path d="m9.5 20.1 4.2-7.3"/><path d="M3.6 13.5H12"/><path d="m6 6 4.2 7.3"/></svg></span><h3>Detail</h3><p>Sharpening with radius, detail and masking. Noise reduction for luminance and colour.</p></div>
+      <div class="card card--feature"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 4 2.400 5 5.500.700-4 3.800 1 5.500L12 16.300 7.100 19l1-5.500-4-3.800 5.500-.700z"/></svg></span><h3>Effects</h3><p>Vignette with midpoint, roundness and feather. Film grain with amount, size and roughness.</p></div>
+      <div class="card card--feature"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3v14h14"/><path d="M3 7h14v14"/></svg></span><h3>Crop and rotate</h3><p>Free or fixed aspect ratios, straighten, rotate by 90 degrees, flip horizontally or vertically.</p></div>
+      <div class="card card--feature"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 8.5v7"/><path d="M8.5 12h7"/></svg></span><h3>Spot removal</h3><p>Heal, clone or remove, with size, feather and opacity. Drag the source patch, or ask for a new one.</p></div>
+      <div class="card card--feature"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10"/><path d="M8 20V6"/><path d="M12 20v-9"/><path d="M16 20V4"/><path d="M20 20v-7"/></svg></span><h3>Histogram</h3><p>Drag the histogram itself to move tones. Clipping warnings mark blown highlights in red and crushed shadows in blue.</p></div>
+      <div class="card card--feature"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="2"/><path d="M12 3v18"/></svg></span><h3>Before and zoom</h3><p>Peek at the original with <kbd>\</kbd>. Fit, 100% and wheel zoom toward the pointer, with a navigator for where you are.</p></div>
+    </div>
+    <div class="split" style="margin-top: clamp(40px, 6vw, 72px);">
+      <div class="shot"><img loading="lazy" src="assets/img/shots/detail-colour.webp" srcset="assets/img/shots/detail-colour.webp 750w, assets/img/shots/detail-colour@2x.webp 1500w" sizes="(min-width: 900px) 560px, 92vw" width="750" height="695" alt="The Tone curve and Colour mixer sections open beside a coastal photo."></div>
+      <div>
+        <h2>Sliders that behave.</h2>
+        <ul class="ticks">
+          <li><strong>Double-click</strong> a slider to reset it</li>
+          <li><strong>Click the number</strong> to type an exact value</li>
+          <li><strong>Hover and press</strong> <kbd>←</kbd> <kbd>→</kbd> to nudge, with <kbd>Shift</kbd> for ten times as far</li>
+          <li><strong>Copy and paste</strong> a look between photos with <kbd>Ctrl</kbd> <kbd>C</kbd> and <kbd>Ctrl</kbd> <kbd>V</kbd>, or copy only the groups you choose</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight section--alt" id="presets">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Presets and Copy a look</p>
+      <h2>116 looks, and any look you can find.</h2>
+      <p>Presets live under the navigator. Each row shows the photo you are editing with that preset applied.</p>
+      <ul class="ticks">
+        <li><strong>12 categories</strong>: Essentials, Portrait, Landscape, Film, Cinematic, Moody, Bright &amp; Airy, Vintage, Black &amp; White, Urban &amp; Night, Seasons &amp; Nature, Food &amp; Product</li>
+        <li><strong>Hover to preview</strong>, click to apply</li>
+        <li><strong>Amount</strong> from 0% to 200%. Anything you change by hand afterwards is kept when Amount moves</li>
+        <li><strong>Search, favourites</strong> and your own saved presets at the top</li>
+        <li><strong>Copy a look</strong>: drop in any picture, or paste a screenshot with <kbd>Ctrl</kbd> <kbd>V</kbd>. VETRA reads its colour and mood and sets its own sliders to match, checking the result against the picture until it is as close as the sliders allow</li>
+      </ul>
+      <p class="small">A preset changes only the look. Crop, rotation, spot removal and masks stay as they were.</p>
+    </div>
+    <div class="shot"><img loading="lazy" src="assets/img/shots/detail-presets.webp" srcset="assets/img/shots/detail-presets.webp 750w, assets/img/shots/detail-presets@2x.webp 1500w" sizes="(min-width: 900px) 580px, 92vw" width="750" height="640" alt="The presets panel with the Film category open and the Portrait 400 preset applied to a wheat-field photo."></div>
+  </div>
+</section>
+
+<section class="section section--tight" id="masks">
+  <div class="wrap split split--flip">
+    <div>
+      <p class="eyebrow">Masks</p>
+      <h2>Eight ways to select part of a photo.</h2>
+      <ul class="ticks">
+        <li><strong>Subject</strong>: finds what the photo is about. Click parts of it to be exact</li>
+        <li><strong>Sky</strong> and <strong>Background</strong>: found the same way. Background is the exact negative of a Subject mask</li>
+        <li><strong>Radial</strong> and <strong>Linear</strong>: shapes with a feathered edge</li>
+        <li><strong>Brush</strong>: paint it on, with size and hardness, and an erase mode</li>
+        <li><strong>Luminance</strong> and <strong>Colour</strong>: select by brightness, or by a colour you click</li>
+      </ul>
+      <p>Every mask has its own local adjustments, an amount, and a range limit by luminance or colour. Masks can add to or subtract from each other, be inverted, renamed and switched off. Press <kbd>O</kbd> to show or hide the overlay.</p>
+      <p class="small">Subject, Sky and Lens blur use AI models that run on your computer. VETRA asks before downloading them, 320 MB in all.</p>
+    </div>
+    <div class="shot"><img loading="lazy" src="assets/img/shots/mask.webp" srcset="assets/img/shots/mask.webp 1500w, assets/img/shots/mask@2x.webp 3000w" sizes="(min-width: 900px) 600px, 92vw" width="1500" height="940" alt="A subject mask covering a lioness, shown as a red overlay in Develop."></div>
+  </div>
+</section>
+
+<section class="section section--tight section--alt" id="lens-blur">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Lens blur</p>
+      <h2>A wide-aperture look, after the fact.</h2>
+      <p>Blur the background works out how far away everything in the photo is, focuses on the subject and blurs the rest.</p>
+      <ul class="ticks">
+        <li><strong>Focus range</strong>: drag the box to choose which distances stay sharp, or widen it for more in focus</li>
+        <li><strong>Click to focus</strong> on any point in the photo, or <strong>Focus on subject</strong></li>
+        <li><strong>Visualize depth</strong> shows the depth map in colour, near to far</li>
+        <li><strong>Blur amount</strong> and <strong>bokeh highlights</strong></li>
+      </ul>
+    </div>
+    <div class="shot"><img loading="lazy" src="assets/img/shots/depth.webp" srcset="assets/img/shots/depth.webp 1500w, assets/img/shots/depth@2x.webp 3000w" sizes="(min-width: 900px) 600px, 92vw" width="1500" height="940" alt="A waterfall scene shown as a depth map with the Lens blur controls beside it."></div>
+  </div>
+</section>
+
+<section class="section section--tight" id="history">
+  <div class="wrap split split--flip">
+    <div>
+      <p class="eyebrow">History</p>
+      <h2>Every change, in order, always open.</h2>
+      <p>History has its own column beside the photo. It is the full story of an edit, not just an undo stack.</p>
+      <ul class="ticks">
+        <li><strong>Click a step</strong> to go back to it</li>
+        <li><strong>Similar steps bundle</strong> together so the list stays readable</li>
+        <li><strong>Select several</strong> with <kbd>Ctrl</kbd> or <kbd>Shift</kbd> and delete them</li>
+        <li><strong>Rename</strong> a step with a double-click</li>
+      </ul>
+    </div>
+    <div class="shot"><img loading="lazy" src="assets/img/shots/detail-history.webp" srcset="assets/img/shots/detail-history.webp 750w, assets/img/shots/detail-history@2x.webp 1500w" sizes="(min-width: 900px) 580px, 92vw" width="750" height="500" alt="The History column listing Loaded, Epic Landscape, Highlights, Shadows and Clarity steps beside a fjord photo."></div>
+  </div>
+</section>
+
+<section class="section section--tight section--alt" id="export">
+  <div class="wrap split">
+    <div>
+      <p class="eyebrow">Export</p>
+      <h2>Finished files, wherever you need them.</h2>
+      <ul class="ticks">
+        <li><strong>JPEG, PNG or TIFF</strong>, with a quality setting for JPEG</li>
+        <li><strong>Size</strong>: original, or a long edge of 4096, 2560, 1920, 1080 or any number. Photos are never enlarged</li>
+        <li><strong>Metadata</strong>: keep or leave out EXIF and the colour profile</li>
+        <li><strong>Save to several places</strong> in one export, including next to each original. A folder that is not connected is skipped with a message</li>
+        <li><strong>Never overwrites</strong>: a second export of the same photo gets its own name</li>
+        <li><strong>In the background</strong>, with progress and time remaining, while you keep working</li>
+      </ul>
+    </div>
+    <div class="shot" style="max-width: 410px; justify-self: center;"><img loading="lazy" src="assets/img/shots/detail-export.webp" srcset="assets/img/shots/detail-export.webp 410w, assets/img/shots/detail-export@2x.webp 820w" sizes="410px" width="410" height="493" alt="The Export window with format, quality, size, metadata and save-to options."></div>
+  </div>
+</section>
+
+<section class="section section--tight" id="safety">
+  <div class="wrap">
+    <div class="section__head">
+      <p class="eyebrow">Safety</p>
+      <h2>Built so that nothing is lost.</h2>
+    </div>
+    <div class="cards">
+      <div class="card"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 4 8.5 4.5L12 13 3.5 8.5z"/><path d="m3.5 12.5 8.5 4.5 8.5-4.5"/><path d="m3.5 16.5 8.5 4.5 8.5-4.5"/></svg></span><h3>Non-destructive</h3><p>Original files are opened and never written. Edits are a small text file next to each photo that travels with it.</p></div>
+      <div class="card"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 18.500a4.500 4.500 0 0 1-.6-8.960 6 6 0 0 1 11.500 1.500A3.800 3.800 0 0 1 17.500 18.500"/><path d="M12 12v8"/><path d="m9 15 3-3 3 3"/></svg></span><h3>Backups of your edits</h3><p>Choose one or more folders and VETRA keeps a copy of every edit, the catalog and your presets there, updated as you work.</p></div>
+      <div class="card"><span class="card__icon"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.5 5 6v5.5c0 4.2 2.9 7.6 7 9 4.1-1.4 7-4.8 7-9V6z"/><path d="m9 12 2.2 2.2L15 10.4"/></svg></span><h3>Restore, and undo the restore</h3><p>"Restore edits" brings everything back after a reinstall or on a new computer. Undo can take a restore back.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="cta">
+      <h2>See it on your own photos.</h2>
+      <p>The test version is free and takes about a minute to install.</p>
+      <div class="button-row"><a class="button button--primary button--large" href="download.html"><svg class="icon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11"/><path d="m7.5 10.5 4.5 4.5 4.5-4.5"/><path d="M5 19h14"/></svg>Download VETRA 7.0-test</a></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__grid">
+    <div class="site-footer__brand">
+      <a class="brand" href="./" aria-label="VETRA home">
+        <img src="assets/img/brand/vetra-mark.svg" width="26" height="24" alt="">
+        <span>VETRA</span>
+      </a>
+      <p>A non-destructive photo editor for Windows. Your photos and your edits stay on your computer.</p>
+      <p class="site-footer__version">Version 7.0-test &middot; 27 September 2026</p>
+    </div>
+    <nav aria-label="Product">
+      <h2>Product</h2>
+      <a href="features.html">Features</a>
+      <a href="download.html">Download</a>
+      <a href="changelog.html">What's new</a>
+      <a href="about.html#roadmap">Roadmap</a>
+    </nav>
+    <nav aria-label="Learn">
+      <h2>Learn</h2>
+      <a href="guide.html">Getting started</a>
+      <a href="guide.html#shortcuts">Keyboard shortcuts</a>
+      <a href="support.html">Support</a>
+      <a href="support.html#faq">Questions</a>
+    </nav>
+    <nav aria-label="VETRA">
+      <h2>VETRA</h2>
+      <a href="about.html">About</a>
+      <a href="about.html#press">Press kit</a>
+      <a href="https://github.com/lucasbergstrom-prog/vetra/releases" rel="noopener">Release feed</a>
+      <a href="https://github.com/lucasbergstrom-prog/vetra/issues/new" rel="noopener">Contact</a>
+    </nav>
+    <nav aria-label="Legal">
+      <h2>Legal</h2>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="licenses.html">Open-source licences</a>
+    </nav>
+  </div>
+  <div class="wrap site-footer__base">
+    <p>&copy; 2026 VETRA. Windows is a trademark of the Microsoft group of companies.</p>
+    <p>No cookies. No trackers. <a href="privacy.html">How this site treats you</a></p>
+  </div>
+</footer>
+
+<script src="assets/js/site.js?v=8b00ac81" defer></script>
+</body>
+</html>
