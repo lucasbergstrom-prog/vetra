@@ -8,7 +8,7 @@
   "updated_iso": "2026-10-04",
   "site_url": "https://lucasbergstrom-prog.github.io/vetra/",
   "repo_url": "https://github.com/lucasbergstrom-prog/vetra",
-  "download_url": "https://github.com/lucasbergstrom-prog/vetra/releases/download/v7.0-test/VETRA-7.0-test-Setup.exe",
+  "download_url": "https://github.com/lucasbergstrom-prog/vetra/raw/main/downloads/VETRA-7.0-test-Setup.exe",
   "installer_file": "VETRA-7.0-test-Setup.exe",
   "installer_size": "125 MB",
   "installer_bytes": "130,747,642",

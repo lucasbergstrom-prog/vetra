@@ -42,15 +42,17 @@ The site is set up for a public repository called `vetra` under the GitHub accou
    ```
 
 3. In the repository: **Settings > Pages > Build and deployment**. Source: *Deploy from a branch*. Branch: `main`, folder `/docs`. Save. The site is live a minute or two later.
-4. In the repository: **Releases > Draft a new release**. Tag `v7.0-test`, title `VETRA 7.0-test`, attach `VETRA-7.0-test-Setup.exe`, publish. The Download button on the site points at that file:
+4. The installer lives in this repository under `downloads/`, stored with Git LFS because it is over GitHub's 100 MB limit for ordinary files. The Download button on the site points at it:
+
+   `https://github.com/lucasbergstrom-prog/vetra/raw/main/downloads/VETRA-7.0-test-Setup.exe`
+
+Git LFS downloads count against the account's monthly LFS bandwidth allowance, and a free account's allowance is small. If the app gets popular, attach the installer to a GitHub release instead (**Releases > Edit**, drop the file on "Attach binaries", **Update release**), which has no such limit, and change `download_url` in `site.json` to:
 
    `https://github.com/lucasbergstrom-prog/vetra/releases/download/v7.0-test/VETRA-7.0-test-Setup.exe`
 
-The installer is 125 MB, which is over the 100 MB limit for files inside a repository. That is why it goes on a release and not in `docs/`.
-
 ## Ship a new version
 
-1. Publish a new release on GitHub with the new installer attached.
+1. Put the new installer in `downloads/` (Git LFS picks it up), and publish a release on GitHub to announce it.
 2. In `site.json` update `version`, `release_date`, `download_url`, `installer_file`, `installer_size`, `installer_bytes` and `installer_sha256`. The checksum comes from:
 
    ```powershell
