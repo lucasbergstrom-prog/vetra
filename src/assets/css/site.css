@@ -237,7 +237,7 @@ html:not(.js) .looks { display: none; }
 .split h2 { font-size: clamp(1.7rem, 3.1vw, 2.45rem); margin-bottom: 1rem; }
 .split p { color: var(--fg-dim); }
 @media (max-width: 900px) {
-  .split { grid-template-columns: 1fr; }
+  .split { grid-template-columns: minmax(0, 1fr); }
   .split--flip > :first-child { order: 0; }
 }
 .ticks { list-style: none; margin: 1.4rem 0 1.6rem; padding: 0; display: grid; gap: .7rem; }
